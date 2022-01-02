@@ -1,0 +1,1 @@
+execute as @e[type=dolphin, tag=!disable_cd] if data entity @s CustomName run data merge entity @s {Health:10, FallDistance:0}
